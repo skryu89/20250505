@@ -1,0 +1,20 @@
+/*モーダルウィンドウ */
+ul {
+    width: 1040px;
+}
+
+ul li {
+    float: left;
+    list-style-type: none;
+}
+
+ul li img {
+    border: 0;
+    margin: 10px;
+}
+
+ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
